@@ -9,6 +9,95 @@
     <link rel="stylesheet" href="status.css">
 </head>
 <body>
-    status page
+    <nav class="navbar navbar-expand-sm ">
+            <img id="mLogo" src="../files/designImg/logo.png" alt="logo" >
+            <div class="navbar-nav mx-auto">
+                <ul class="navbar-nav ">
+                    <li class="nav-item px-3 fw-bold"><a class="nav-link " id="nav-text" href="#">Home</a></li>
+                    <li class="nav-item px-3 fw-bold"><a class="nav-link " id="nav-text"  href="#">Catalog</a> </li>
+                    <li class="nav-item px-3 fw-bold"><a class="nav-link " id="nav-text"  href="#">Contest </a></li>
+                    <li class="nav-item px-3 fw-bold"><a class="nav-link " id="nav-text"  href="#">Problem Set </a></li>
+                    <li class="nav-item px-3 fw-bold"><a class="nav-link " id="nav-text"  href="#">Ranking </a></li>
+                </ul>
+            </div>
+            <div class="d-flex bd-highlight mx-4">
+                <p class="mx-2 p-2 fw-bold" id="nav-text" >Login</p>
+                <div class="vr mt-2"id="navVr"></div>
+                <p class="mx-2 p-2 fw-bold" id="nav-text" ><a href="#" id="signUp">Signup</a></p>
+            </div>
+            <div class="">
+                <i class="fa-solid fa-sun " id="navSun"></i>
+            </div>
+    </nav>
+    <div class="container" id="contestTitle">
+        <div class="text-center">
+             <h4>Contest</h4>
+             <p> Join code from around the globe to takle challenging problems and showcase<br>your skills in our programming contests!</p>
+             <p></p>
+        </div>
+    </div>
+
+    <div class="text-center mt-3">
+        <h3>UP COMING CONTEST</h3>
+    </div>
+    <div class="d-flex bd-highlight text-center justify-content-center">
+        <div class="card mx-3">
+            <div class="card-body">
+                
+            </div>
+            <div class="card-footer">
+                <div class="text-center">
+                    Bi-Weekly Contest #19<br>3days 12 hours left
+                </div>
+            </div>
+        </div>
+        <div class="card mx-3">
+            <div class="card-body">
+                
+            </div>
+            <div class="card-footer">
+                <div class="text-center">
+                    Bi-Weekly Contest #19<br>3days 12 hours left
+                </div>
+            </div>
+        </div>
+        <div class="card mx-3">
+            <div class="card-body">
+                
+            </div>
+            <div class="card-footer">
+                <div class="text-center">
+                    Bi-Weekly Contest #19<br>3days 12 hours left
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container">
+
+        </div>
+        <div class="container">
+            <table>
+                <tr>
+                    <th>Contest ID</th>
+                    <th>Contest Type</th>
+                    <th>Rating</th>
+                    <th>Starting Date</th>
+                    <th>Problems</th>
+                    <th>Participants</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
 </body>
 </html>
