@@ -105,9 +105,10 @@
                         Code
                     </div>
                     <div class="px-3">
-                        <select name="" id="selectLang">
-                            <option value="">C</option>
-                            <option value="">C++</option>
+                        <select name="language" id="selectLang">
+                            <option value="c">C</option>
+                            <option value="c++">C++</option>
+                            <option value="python">Python</option>
                         </select>
                     </div>
                 </div>
