@@ -1,6 +1,7 @@
 <?php
    $code=$_GET['code'];
    $langugae=$_GET['language'];
+    $fileData=$_GET['fileData'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +13,7 @@
 <body>
     hello from statusPage <br>
     <?php echo $code; ?><br>
-    <?php echo $langugae; ?>
+    <?php echo $langugae; ?><br>
+    <?php echo $fileData; ?><br>
 </body>
 </html>

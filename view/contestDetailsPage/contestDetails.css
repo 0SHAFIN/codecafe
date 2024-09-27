@@ -28,5 +28,33 @@ body{
 }
 #seNav{
     background-color: #0B6477;
-    width: 100%;
+    
+}
+table,th,td{
+    border-collapse: collapse;
+    padding: 10px;
+    padding-right: 100px;
+    border: 1px solid black;
+}
+th{
+    background-color: #0B6477;
+    color: white;
+}
+#containeR{
+    height: 50%;
+    margin: 40px;
+    padding: 20px;
+}
+#timinG{
+    border: 1px solid black;
+    padding: 10px;
+    height: 150px;
+    width: 300px;
+    margin-top: 90px;
+    border-radius: 10px;
+}
+.cTiming{
+    color: #0B6477;
+    font-size: 20px;
+    font-weight: bold;
 }
