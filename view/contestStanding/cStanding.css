@@ -1,0 +1,64 @@
+body{
+    background-image: url('../files/designImg/plbg.jpeg');
+    background-position: center;
+    background-size: fill;
+}
+#mLogo{
+    margin-left: 10px;
+    height: 30px;
+    width: 10%;
+}
+
+#navVr{
+    border-left: 2px solid black; 
+    height: 26px;
+}
+#signUp{
+    text-decoration:none;
+    color: #2d5550;
+}
+#navSun{
+    color: #0B6477;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+#nav-text{
+    color: #0B6477;
+}
+#seNav{
+    background-color: #0B6477;
+    
+}
+table,th,td{
+    border-collapse: collapse;
+    padding: 10px;
+    border: 1px solid black;
+}
+#cStanding{
+    width: 100%;
+}
+th{
+    background-color: #0B6477;
+    color: white;
+}
+#seNav{
+    background-color: #0B6477;
+    
+}
+.pBtn{
+    background-color: #012f3a;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+#btn{
+    border:none;
+    background-color: transparent;
+    color: white;
+}
+
+#btn:hover{
+    background-color: #012f3a;
+    color: white;
+    border-radius: 10px;
+}

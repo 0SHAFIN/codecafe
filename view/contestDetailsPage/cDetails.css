@@ -58,3 +58,21 @@ th{
     font-size: 20px;
     font-weight: bold;
 }
+.pBtn{
+    background-color: #012f3a;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+#btn{
+    border:none;
+    background-color: transparent;
+    color: white;
+}
+
+#btn:hover{
+    background-color: #012f3a;
+    color: white;
+    border-radius: 10px;
+}
+
