@@ -69,7 +69,7 @@
                         1
                     </td>
                     <td>
-                        <a href="#">Problem 1</a>
+                        <a href="../problemPage/problemPage.php" id="problem">Problem 1</a>
                     </td>
                     <td>
                         100
@@ -80,7 +80,7 @@
                         2
                     </td>
                     <td>
-                        <a href="#">Problem 2</a>
+                        <a href="../problemPage/problemPage.php" id="problem">Problem 2</a>
                     </td>
                     <td>
                         100
