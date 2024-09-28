@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm ">
-                <img id="mLogo" src="../files/designImg/logo.png" alt="logo">
+                <img id="mLogo" src="../view/files/designImg/logo.png" alt="logo">
                 <div class="navbar-nav mx-auto">
                     <ul class="navbar-nav ">
                         <li class="nav-item px-3 fw-bold"><a class="nav-link " id="nav-text" href="#">Home</a></li>
