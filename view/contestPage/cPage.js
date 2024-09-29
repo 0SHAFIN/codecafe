@@ -4,4 +4,5 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault
         window.location.href = '../contestDetailsPage/contestDetailsPage.php';
     });
+    
 });

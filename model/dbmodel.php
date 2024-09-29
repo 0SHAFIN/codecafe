@@ -14,10 +14,10 @@ function signup($name,$email,$number,$dob,$password)
         return false;
     }
 }
-function login($email,$password)
+function login($username,$password)
 {
     $conn = dbconnection();
-    $sql = "SELECT * FROM `user_info` WHERE `u_email`='$email' AND `u_password`='$password'";
+    $sql = "SELECT * FROM `users` WHERE `user_name`='$username' AND `password`='$password'";
     $result = mysqli_query($conn, $sql);
     if($result->num_rows>0)
     {

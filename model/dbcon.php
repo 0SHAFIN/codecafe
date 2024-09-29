@@ -3,7 +3,7 @@
     $serverName="localhost";
     $userName="root";
     $password="";
-    $dbName="mid_labtask";
+    $dbName="codecafe";
     $conn = mysqli_connect($serverName,$userName,$password,$dbName);
     return $conn;
     }

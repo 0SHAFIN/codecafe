@@ -32,7 +32,7 @@
             <i class="fa-solid fa-sun " id="navSun"></i>
         </div>
     </nav>
-    <div class="container" id="contestTitle">
+    <div class="container-fluid" id="contestTitle">
         <div class="text-center">
             <h4>Contest</h4>
             <p> Join code from around the globe to takle challenging problems and showcase<br>your skills in our programming contests!</p>
@@ -48,14 +48,15 @@
 
     </div>
 
-    <div class="d-flex bd-highlight justify-content-center ">
+    <div class="d-flex bd-highlight justify-content-center mb-4">
         <div class="container" id="carD">
             <div class="image">
                 <img id="carD-image" src="https://static-cse.canva.com/blob/1210661/10SimplewaystoenhanceyourimageFeaturedImage1.jpg" alt="contest">
             </div>
             <div class="carD-body fw-bold text-center">
                 Weekly Contest #16 <br>
-                3 days 12 hours left
+                3 days 12 hours left <br>
+                <a class="text-white" href="#" id="">Register</a>
             </div>
         </div>
         <div class="container" id="carD">
@@ -64,7 +65,8 @@
             </div>
             <div class="carD-body fw-bold text-center">
                 Weekly Contest #16 <br>
-                3 days 12 hours left
+                3 days 12 hours left<br>
+                <a class="text-white" href="#" id="">Register</a>
             </div>
         </div>
         <div class="container" id="carD">
@@ -73,7 +75,8 @@
             </div>
             <div class="carD-body fw-bold text-center">
                 Weekly Contest #16 <br>
-                3 days 12 hours left
+                3 days 12 hours left<br>
+                <a class="text-white" href="#" id="">Register</a>
             </div>
         </div>
 
@@ -83,13 +86,13 @@
         <div class="col-10">
             <div class="container">
                 <div class="container">
-
+                    <h4> Upcoming Contest</h4>
                 </div>
-                <div class="container">
+                <div class="container mb-4">
                     <table>
                         <tr>
                             <th>Contest ID</th>
-                            <th>Contest Type</th>
+                            <th>Contest Name</th>
                             <th>Rating</th>
                             <th>Starting Date</th>
                             <th>Problems</th>
@@ -98,17 +101,51 @@
                         </tr>
                         <tr>
                             <td>1</td>
-                            <td>2</td>
+                            <td>
+                                <div class="text-center">2</div>
+                                <a href="#" id="cEnter">Enter Contest</a>
+                            </td>
                             <td>3</td>
                             <td>4</td>
                             <td>5</td>
                             <td>6</td>
-                            <td><a href="#" id="cEnter">Enter Contest</a></td>
+                            <td><a href="#" id="cRegister">Register</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="container">
+                    <h4>Previous Contest</h4>
+                </div>
+                <div class="container mt-4">
+                    <table>
+                        <tr>
+                            <th>Contest ID</th>
+                            <th>Contest Name</th>
+                            <th>Rating</th>
+                            <th>Starting Date</th>
+                            <th>Length</th>
+                            <th>Problems</th>
+                            <th>Participants</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>
+                                <div class="text-center">2</div>
+                                <a href="#" id="cEnter">Enter Contest</a>
+                            </td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>2 hours</td>
+                            <td>5</td>
+                            <td>6</td>
                         </tr>
 
                     </table>
                 </div>
             </div>
+            
             <div class="d-flex justify-content-center" id="pagination">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
@@ -123,20 +160,20 @@
         </div>
         <div class="col-2">
             <div class="container" id="filteR">
-                  <div class="text-center text-white fw-bold p-2">
+                <div class="text-center text-white fw-bold p-2">
                     Contest Filter
-                  </div>
-                  <hr class="text-white">
-                   <p class="fw-bold text-white">Contest Type</p>
-                        <div class="text-white">
-                            <input type="checkbox" id="ckBox"> All Contest <br>
-                            <input type="checkbox" name="" id="ckBox"> Weekly Contest <br>
-                            <input type="checkbox" name="" id="ckBox"> Monthly Contest <br>
-                        </div>
-                    <div class="bd-highlight text-center mt-4">
-                         <button>Apply</button>
-                         <button>Cancel</button>
-                    </div>  
+                </div>
+                <hr class="text-white">
+                <p class="fw-bold text-white">Contest Type</p>
+                <div class="text-white">
+                    <input type="checkbox" id="ckBox"> All Contest <br>
+                    <input type="checkbox" name="" id="ckBox"> Weekly Contest <br>
+                    <input type="checkbox" name="" id="ckBox"> Monthly Contest <br>
+                </div>
+                <div class="bd-highlight text-center mt-4">
+                    <button>Apply</button>
+                    <button>Cancel</button>
+                </div>
             </div>
         </div>
     </div>

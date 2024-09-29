@@ -23,13 +23,13 @@ require_once '../model/dbcon.php';
             }
             break;
         case 'login':
-            if(login($data['email'],$data['password']))
+            if(login($data['username'],$data['password']))
             {
                 $conn=dbconnection();
-                $sql = "SELECT * FROM `user_info` WHERE `u_email`='".$data['email']."' AND `u_password`='".$data['password']."'";
+                $sql = "SELECT * FROM `users` WHERE `user_name`='".$data['username']."' AND `password`='".$data['password']."'";
                 $result = mysqli_query($conn, $sql);
                 $row = mysqli_fetch_assoc($result);
-                $_SESSION['name']=$row['u_name'];
+                $_SESSION['name']=$row['name'];
                 http_response_code(200);
                 echo json_encode(array("status"=>"success"));
             }
