@@ -31,6 +31,10 @@
         </div>
 </nav>
 <div id="seNav" class="" >   
+    <div class="d-flex bd-highlight text-white fw-bold mx-4">
+        <div class="p-2">Problem</div>
+        <div class="p-2" id="status">Status</div>
+    </div>
 </div>
 <div class="container-fluid">
 <div class="row">

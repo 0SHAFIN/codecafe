@@ -2,7 +2,12 @@ document.addEventListener('DOMContentLoaded', function() {
     var submitBtn=document.getElementById('buttomBtn');
     var fileselect=document.getElementById('selectFile');
     var fileData;
-
+    var status=document.getElementById('status');
+    status.addEventListener('click',function(){
+        console.log('status button clicked');
+        window.location.href = "../statusPage/statusPage.php";
+    });
+    
     submitBtn.addEventListener('click', function() {
         console.log('Submit button clicked');
         event.preventDefault();
